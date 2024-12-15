@@ -1,0 +1,32 @@
+
+:root{
+    --color-pri: #fcdb00;
+    --text-pri: #010101;
+    --text-sec: #313841;
+    --text-ter: #555555;
+    --text-quat: #898989;
+
+    --color-white: #fff;
+    --color-dark: #000;
+}
+
+
+body{
+    font-family: "Oswald", serif;
+}
+
+
+li{
+    list-style: none;
+}
+
+a:is(:link, :visited){
+    text-decoration: none;
+}
+
+.mb-130{
+    margin-bottom: 130px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
